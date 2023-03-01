@@ -1,24 +1,20 @@
 .news{
-    margin-top: 16rem;
     width: 100%;
-    padding: 1rem 3rem;
-    border-bottom: 2px solid rgb(212, 211, 211);
-    // background-color: rebeccapurple;
+    padding: 1rem 2rem;
     z-index: 2;
+    margin-top: 12rem;
     @media(max-width: 768px){
         flex-direction: column;
         padding: 1rem .4rem;
-        margin-top: 3rem;
+        margin-top: 4rem;
     }
     .left-news{
         width: 30%;
-        // background-color: rebeccapurple;
         flex-direction: column;
         padding: 1rem 2rem;
         @media(max-width: 768px){
             flex-direction: column;
             width: 100%;
-            
         }
         h3{
             font-size: 26px;
@@ -52,6 +48,9 @@
         }
         a{
             width: 48%;
+            @media(max-width: 768px){
+                width: 100%;
+            }
             .right-news-card{
                 border-radius: 5px;
                 width: 100%;
@@ -74,6 +73,9 @@
             gap: 1rem;
             padding: 1.4rem;
             font-family: 'Open Sans', sans-serif;
+            @media(max-width: 768px){
+                width: 100%;
+            }
             .news-infor-title{
                 font-size: 13px;
                 line-height: 15px;
@@ -90,6 +92,9 @@
         .min-news-tabs{
             width: 100%;
             gap: 1rem;
+            @media(max-width: 768px){
+                flex-direction: column;
+            }
             a{
                 width: 100%;
                 .right-news-card{
@@ -97,7 +102,11 @@
                     width: 80%;
                     border: none;
                     overflow: hidden;
-                    border-color:1px solid red;
+                    // border-color:1px solid red;
+                    @media(max-width: 768px){
+                        flex-direction: column;
+                        width: 100%;
+                    }
                     img{
                         width: 100%;
                         border-radius: 5px;
@@ -107,7 +116,7 @@
         }
         .more-news{
             width: 100%;
-            // background-color:red ;
+            // background-color: green;
             .top-more-news{
                 width: 100%;
                 // background-color: green;
@@ -116,6 +125,9 @@
                 color: #000f2c;
                 padding: 1rem 1rem;
                 border-bottom: 2px solid gray;
+                @media(max-width: 768px){
+                    // background-color: red;
+                }
             }
             .btm-more-news{
                 padding: 1rem;
@@ -124,9 +136,13 @@
                 flex-wrap: wrap;
                 .more-news-tab{
                     width: 49%;
+                    font-family: 'Open Sans', sans-serif;
                     padding: 1rem 1.3rem;
                     border-bottom: 1.2px solid rgb(197, 195, 195);
                     background-color: #F7F9FC;
+                    @media(max-width: 768px){
+                        width: 100%;
+                    }
                     .tab-infor{
                         background-color: white;
                         margin-bottom: 1rem;
