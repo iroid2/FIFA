@@ -430,6 +430,16 @@ a {
   font-weight: 400;
 }
 
+.tournaments {
+  width: 100%;
+}
+.tournaments .top-tourn h3 {
+  font-size: 26px;
+  line-height: 29px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  color: #000f2c;
+}
 body {
   width: 100%;
   background-color: #F7F9FC;
