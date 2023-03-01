@@ -1,0 +1,48 @@
+.infocus{
+    width: 100%;
+    background-color: #000F2C;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    .top-infocus{
+        width: 100%;
+    }
+    .btm-infocus{
+        width: 100%;
+        padding: 1rem 2rem;
+        flex-wrap: wrap;
+        display: grid;
+        grid-template-columns: repeat(auto-fit,minmax(49%,1fr));
+        grid-column-gap:1.5rem ;
+        .infocus-card{
+            margin-top: 1rem;
+            img{
+                width: 100%;
+            }
+            .focus-details{
+                margin: 1rem;
+                h3{
+                    font-size: 25px;
+                    font-weight: 700;
+                    line-height: 24px;
+                    color: #f7f9fc
+                    ;
+                }
+                .focus-infor{
+                    font-size: 17px;
+                    line-height: 24px;
+                    color: #f7f9fc
+                    ;
+                    margin-top: 1rem;
+                    margin-bottom: 1rem;
+                }
+                a{
+                    margin-top: 1rem;
+                    color: #1277d9;
+                    font-size: 16px ;
+                    line-height: 24px;
+                    font-weight: 400;
+                }
+            }
+        }
+    }
+}
