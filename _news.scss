@@ -146,8 +146,15 @@
                     .tab-infor{
                         background-color: white;
                         margin-bottom: 1rem;
-                        padding: 1.7rem 1.3rem;
+                        padding: .2rem 1rem;
                         gap: .7rem;
+                        .left-more-news-tab{
+                            width: 100%;
+                        }
+                        .right-more-news-tab{
+                            // background-color: green;
+                            height: 2rem;
+                        }
                     }
                 }
             }

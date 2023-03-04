@@ -1,6 +1,8 @@
 .tournaments{
+    padding-top: 2rem;
     width: 100%;
     .top-tourn{
+        padding-left: 6rem;
         h3{
             font-size: 26px ;
             line-height: 29px;
@@ -9,5 +11,27 @@
             color: #000f2c;
         }
     }
-    .btm-tourn{}
+    .btm-tourn{
+        // background-color: red;
+        gap: 1.4rem;
+        .tourn-card{
+            margin-top: 1rem;
+            width: 20%;
+            border-radius: 5px;
+            overflow: hidden;
+            img{
+                width: 100%;
+            }
+            .tourn-card-details{
+                padding: 1.2rem;
+                h3{
+                    font-size: 19px;
+                    line-height: 30px;
+                    font-family: 'Open Sans', sans-serif;
+                    font-weight: 700;
+                    color: #000f2c;
+                }
+            }
+        }
+    }
 }
